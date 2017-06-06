@@ -1,18 +1,58 @@
-@media only screen and (min-width: 200px) and (max-width: 534px) {
-        /*contenido*/
-    .container {
-        background-color: brown;
-        width: 100%;
-        height: 400px;
-}
-}
-@media only screen and (min-width: 535px) and (max-width: 824px) {
+@media only screen and (min-width:200px) and (max-width:534px) {
+    .logo {
+    width:auto;
+    height:50px;
+    margin-top: 3;
+    margin-left:30px;
+    }
     /*contenido*/
     .container {
-        background-color: green;
-        width: 100%;
+        background-color:brown;
+        width:100%;
         height: 400px;
+    }
+    /*lado a*/
+    .container_a {
+        width:50%;
+        padding:5%;
+        height:auto;
+        color:white;
+        font-size:12px;
+        text-align:justify;
+        float: right;
+    }
+    /*lado b*/
+    .container_b {
+        width:20%;
+        padding:5%;
+        margin:5%;
+        height:auto;
+        background-color:#4a4646;
+        float:left;
+        color:white;
+        text-align: center;
+    }
 }
+@media only screen and (min-width:535px) and (max-width:824px) {
+    /*lado b*/
+    .container_b {
+        width:20%;
+        padding:5%;
+        margin:5%;
+        height:auto;
+        background-color:#d55050;
+        background-color:#4a4646;
+        float:right;
+        color:white;
+        text-align: center;
+    }
+    /*formulario*/
+    .boton {
+        background-color:#4a4646;
+        padding:5px;
+        margin:3px;
+        color:white;
+        width:100%;
+        text-align: center;
+    }
 }
-
-
